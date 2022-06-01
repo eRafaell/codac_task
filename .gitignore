@@ -1,0 +1,16 @@
+.vscode
+
+__pycache__
+*/__pycache__
+
+/*.log
+
+my_env
+my_env/*
+
+.idea/
+
+client_data
+logs
+
+
