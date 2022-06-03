@@ -11,11 +11,10 @@ def spark():
 
 
 def test_check_read_csv_correctly(spark):
-    source_data = [("a1", "a2", "a3", "a4"), ("b1", "b2", "b3", "b4"), ("c1", "c2", "c3", "c4")]
-    col_names = ["col1", "col2", "col3", "col4"]
-    source_df = spark.createDataFrame(source_data, col_names)
+    path_to_csv = "test/dataset_test.csv"
+    source_df = read_csv(spark, path_to_csv)
     expected_count_df = source_df.count()
-    assert 3 == expected_count_df
+    assert 1000 == expected_count_df
 
 
 def test_check_if_file_exists(spark):
