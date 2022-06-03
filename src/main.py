@@ -6,7 +6,7 @@ from functions import *
 # main function executes the whole process
 def main(dataset1_path: str, dataset2_path: str, filtered_countries):
     # creating SparkSession
-    spark_session = (SparkSession.builder.appName("spark_app").getOrCreate())
+    spark_session = (SparkSession.builder.master("local").appName("spark_app").getOrCreate())
 
     # creating raw df from csv files to be able to revert to the original data at any time
     df1_raw = read_csv(spark_session, dataset1_path)
