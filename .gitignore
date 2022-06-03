@@ -12,4 +12,7 @@ my_env/*
 
 logs
 
+.pytest_cache
+.pytest_cache/*
+
 
