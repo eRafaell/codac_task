@@ -149,7 +149,7 @@ def save_df_to_csv(df: DataFrame, target_path: str = "./client_data/output.csv")
         if file.endswith(".csv"):
             filename = f"{temp}/{file}"
 
-    # copying csv file to cliend_data folder
+    # copying csv file to client_data folder
     os.system(f"cp {filename} {target_path}") 
 
     # deleting the temporary folder and contained files 
@@ -158,6 +158,7 @@ def save_df_to_csv(df: DataFrame, target_path: str = "./client_data/output.csv")
     os.rmdir(temp)
 
     logger.info(f"Saved DataFrame file as {target_path.rsplit('/',1)[-1]} to {target_path}")
+
 
 def parse_args() -> Tuple[str, str, List[str]]:
     """ 
