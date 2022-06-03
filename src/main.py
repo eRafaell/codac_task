@@ -4,21 +4,16 @@ from pyspark.sql.types import IntegerType
 
 from functions import *
 
+# dataset_one_path = "./input_datasets/dataset_one.csv"
+# dataset_two_path = "./input_datasets/dataset_two.csv"
+# filtered_list = ["United Kingdom", "Netherlands"]
 
 def main(dataset1_path: str, dataset2_path: str, filtered_countries):
-    pass
+    
+    spark_session = (SparkSession.builder.appName("spark_app").getOrCreate())
 
-spark_session = (SparkSession.builder.appName("spark_app").getOrCreate())
-
-dataset_one_path = "./input_datasets/dataset_one.csv"
-dataset_two_path = "./input_datasets/dataset_two.csv"
-
-
-if __name__ == "__main__":
-    logger.info(f"Starting app")
-
-    df1_raw = read_csv(spark_session, dataset_one_path)
-    df2_raw = read_csv(spark_session, dataset_two_path)
+    df1_raw = read_csv(spark_session, dataset1_path)
+    df2_raw = read_csv(spark_session, dataset2_path)
 
     df1 = df1_raw.alias("df1")
     df2 = df2_raw.alias("df2")
@@ -34,19 +29,22 @@ if __name__ == "__main__":
     logger.info("dropping unneeded columns")
     df = drop_columns(df, ["first_name", "last_name", "cc_n"])
     
-
     column_rename = {"id": "client_identifier",
                      "btc_a": "bitcoin_address",
                      "cc_t": "credit_card_type"}
     
-
     df = rename_columns(df, column_rename)
 
-    filtered_list = ["United Kingdom", "Netherlands"]
-
-    df = filter_df(df, "country", filtered_list)
+    df = filter_df(df, "country", filtered_countries)
     df.show()
     print(df.count())
 
     save_df_to_csv(df)
+
+
+if __name__ == "__main__":
+    logger.info(f"Starting app")
+    main(*parse_args())
+
+
     
