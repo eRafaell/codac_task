@@ -169,9 +169,9 @@ def parse_args() -> Tuple[str, str, List[str]]:
         third is list of countries to be filtered
     """
     parser = ArgumentParser()
-    parser.add_argument('-path1', '--dataset1_path', type=str)
-    parser.add_argument('-path2', '--dataset2_path', type=str)
-    parser.add_argument('-countries', '--countries', type=str, nargs='+')
+    parser.add_argument('-path1', '--dataset1_path', type=str, required=True)
+    parser.add_argument('-path2', '--dataset2_path', type=str, required=True)
+    parser.add_argument('-countries', '--countries', type=str, nargs='+', required=True)
     args = parser.parse_args()
 
     return args.dataset1_path, args.dataset2_path, args.countries
