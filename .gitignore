@@ -13,5 +13,4 @@ my_env/*
 .pytest_cache
 .pytest_cache/*
 
-logs
 
