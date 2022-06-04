@@ -10,8 +10,6 @@ my_env/*
 
 .idea/
 
-logs
-
 .pytest_cache
 .pytest_cache/*
 

@@ -1,0 +1,59 @@
+2022-06-03 14:20:44,906 - Rotating Log - INFO - Joined two DataFrames on: id
+2022-06-03 14:20:44,975 - Rotating Log - INFO - Columns: ['first_name', 'last_name', 'cc_n'] removed from DataFrame
+2022-06-03 14:20:44,978 - Rotating Log - INFO - Column renaming from 'id' to 'client_identifier'
+2022-06-03 14:20:44,994 - Rotating Log - INFO - Column renaming from 'btc_a' to 'bitcoin_address'
+2022-06-03 14:20:45,008 - Rotating Log - INFO - Column renaming from 'cc_t' to 'credit_card_type'
+2022-06-03 14:20:45,109 - Rotating Log - INFO - Filtered with ['United Kingdom', 'Netherlands'] values in 'country' column
+2022-06-03 14:20:53,743 - Rotating Log - INFO - Saved DataFrame file as output.csv to ./client_data/output.csv
+2022-06-03 15:48:17,956 - Rotating Log - INFO - Reading csv file from test/dataset_test.csv
+2022-06-03 15:48:18,873 - Rotating Log - INFO - Column renaming from 'col1' to 'renamed_col1'
+2022-06-03 15:48:18,880 - Rotating Log - INFO - Column renaming from 'col2' to 'renamed_col1'
+2022-06-03 15:48:19,187 - Rotating Log - INFO - Filtered with ['c1'] values in 'col1' column
+2022-06-03 15:48:21,353 - Rotating Log - INFO - Joined two DataFrames on: id
+2022-06-03 15:50:41,475 - Rotating Log - INFO - Reading csv file from test/dataset_test.csv
+2022-06-03 15:50:42,402 - Rotating Log - INFO - Column renaming from 'col1' to 'renamed_col1'
+2022-06-03 15:50:42,408 - Rotating Log - INFO - Column renaming from 'col2' to 'renamed_col1'
+2022-06-03 15:50:42,734 - Rotating Log - INFO - Filtered with ['c1'] values in 'col1' column
+2022-06-03 15:50:44,086 - Rotating Log - INFO - Joined two DataFrames on: id
+2022-06-03 15:51:33,624 - Rotating Log - INFO - Reading csv file from test/dataset_test.csv
+2022-06-03 15:51:34,597 - Rotating Log - INFO - Column renaming from 'col1' to 'renamed_col1'
+2022-06-03 15:51:34,606 - Rotating Log - INFO - Column renaming from 'col2' to 'renamed_col2'
+2022-06-03 15:51:36,319 - Rotating Log - INFO - Filtered with ['c1'] values in 'col1' column
+2022-06-03 15:51:36,585 - Rotating Log - INFO - Joined two DataFrames on: id
+2022-06-03 15:53:01,042 - Rotating Log - INFO - Reading csv file from test/dataset_test.csv
+2022-06-03 15:53:01,857 - Rotating Log - INFO - Columns: ['col3', 'col4'] removed from DataFrame
+2022-06-03 15:53:03,278 - Rotating Log - INFO - Column renaming from 'col1' to 'renamed_col1'
+2022-06-03 15:53:03,317 - Rotating Log - INFO - Column renaming from 'col2' to 'renamed_col2'
+2022-06-03 15:53:03,924 - Rotating Log - INFO - Filtered with ['c1'] values in 'col1' column
+2022-06-03 15:53:04,203 - Rotating Log - INFO - Joined two DataFrames on: id
+2022-06-03 16:26:21,488 - Rotating Log - INFO - Columns: ['col3', 'col4'] removed from DataFrame
+2022-06-03 16:26:21,764 - Rotating Log - INFO - Column renaming from 'col1' to 'renamed_col1'
+2022-06-03 16:26:21,772 - Rotating Log - INFO - Column renaming from 'col2' to 'renamed_col2'
+2022-06-03 16:26:22,109 - Rotating Log - INFO - Filtered with ['c1'] values in 'col1' column
+2022-06-03 16:26:22,925 - Rotating Log - INFO - Joined two DataFrames on: id
+2022-06-03 16:27:43,482 - Rotating Log - INFO - Columns: ['col3', 'col4'] removed from DataFrame
+2022-06-03 16:27:43,793 - Rotating Log - INFO - Column renaming from 'col1' to 'renamed_col1'
+2022-06-03 16:27:43,802 - Rotating Log - INFO - Column renaming from 'col2' to 'renamed_col2'
+2022-06-03 16:27:44,154 - Rotating Log - INFO - Filtered with ['c1'] values in 'col1' column
+2022-06-03 16:27:45,314 - Rotating Log - INFO - Joined two DataFrames on: id
+2022-06-03 19:43:20,414 - Rotating Log - INFO - Columns: ['col3', 'col4'] removed from DataFrame
+2022-06-03 19:43:24,577 - Rotating Log - INFO - Column renaming from 'col1' to 'renamed_col1'
+2022-06-03 19:43:24,589 - Rotating Log - INFO - Column renaming from 'col2' to 'renamed_col2'
+2022-06-03 19:43:25,185 - Rotating Log - INFO - Filtered with ['c1'] values in 'col1' column
+2022-06-03 19:43:25,860 - Rotating Log - INFO - Joined two DataFrames on: id
+2022-06-03 19:43:53,539 - Rotating Log - INFO - Reading csv file from test/dataset_test.csv
+2022-06-03 19:43:56,233 - Rotating Log - INFO - Columns: ['col3', 'col4'] removed from DataFrame
+2022-06-03 19:43:57,337 - Rotating Log - INFO - Column renaming from 'col1' to 'renamed_col1'
+2022-06-03 19:43:57,369 - Rotating Log - INFO - Column renaming from 'col2' to 'renamed_col2'
+2022-06-03 19:43:57,715 - Rotating Log - INFO - Filtered with ['c1'] values in 'col1' column
+2022-06-03 19:43:58,028 - Rotating Log - INFO - Joined two DataFrames on: id
+2022-06-04 20:47:33,083 - Rotating Log - INFO - Starting app
+2022-06-04 20:47:49,514 - Rotating Log - INFO - Reading csv file from ./input_datasets/dataset_one.csv
+2022-06-04 20:47:50,211 - Rotating Log - INFO - Reading csv file from ./input_datasets/dataset_two.csv
+2022-06-04 20:47:50,806 - Rotating Log - INFO - Joined two DataFrames on: id
+2022-06-04 20:47:50,833 - Rotating Log - INFO - Columns: ['first_name', 'last_name', 'cc_n'] removed from DataFrame
+2022-06-04 20:47:50,834 - Rotating Log - INFO - Column renaming from 'id' to 'client_identifier'
+2022-06-04 20:47:50,852 - Rotating Log - INFO - Column renaming from 'btc_a' to 'bitcoin_address'
+2022-06-04 20:47:50,873 - Rotating Log - INFO - Column renaming from 'cc_t' to 'credit_card_type'
+2022-06-04 20:47:50,967 - Rotating Log - INFO - Filtered with ['United Kingdom', 'Netherlands'] values in 'country' column
+2022-06-04 20:47:57,589 - Rotating Log - INFO - Saved DataFrame file as output.csv to ./client_data/output.csv

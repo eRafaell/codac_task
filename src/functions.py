@@ -37,7 +37,7 @@ def create_rotating_log(logPath: str, size: int = 10000, backupCount: int = 5) -
     return logger
 
 
-log_file = "./Logs/KommatiPara.log"
+log_file = "./logs/KommatiPara.log"
 logger = create_rotating_log(log_file)
 
 
