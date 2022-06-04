@@ -20,4 +20,4 @@ jobs:
 
       - name: Run tests [pytest]
         run: 
-          python -m pytest
+          pytest test.py
