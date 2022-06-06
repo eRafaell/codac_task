@@ -57,3 +57,29 @@
 2022-06-04 20:47:50,873 - Rotating Log - INFO - Column renaming from 'cc_t' to 'credit_card_type'
 2022-06-04 20:47:50,967 - Rotating Log - INFO - Filtered with ['United Kingdom', 'Netherlands'] values in 'country' column
 2022-06-04 20:47:57,589 - Rotating Log - INFO - Saved DataFrame file as output.csv to ./client_data/output.csv
+2022-06-05 19:47:08,178 - Rotating Log - INFO - Starting app
+2022-06-05 19:47:36,554 - Rotating Log - INFO - Reading csv file from ./input_datasets/dataset_one.csv
+2022-06-05 19:47:36,869 - Rotating Log - INFO - Reading csv file from ./input_datasets/dataset_two.csv
+2022-06-05 19:47:37,000 - Rotating Log - INFO - Joined two DataFrames on: id
+2022-06-05 19:47:37,012 - Rotating Log - INFO - Columns: ['first_name', 'last_name', 'cc_n'] removed from DataFrame
+2022-06-05 19:47:37,012 - Rotating Log - INFO - Column renaming from 'id' to 'client_identifier'
+2022-06-05 19:47:37,022 - Rotating Log - INFO - Column renaming from 'btc_a' to 'bitcoin_address'
+2022-06-05 19:47:37,031 - Rotating Log - INFO - Column renaming from 'cc_t' to 'credit_card_type'
+2022-06-05 19:48:18,732 - Rotating Log - INFO - Starting app
+2022-06-05 19:48:32,213 - Rotating Log - INFO - Reading csv file from ./input_datasets/dataset_one.csv
+2022-06-05 19:48:32,487 - Rotating Log - INFO - Reading csv file from ./input_datasets/dataset_two.csv
+2022-06-05 19:48:32,600 - Rotating Log - INFO - Joined two DataFrames on: id
+2022-06-05 19:48:32,611 - Rotating Log - INFO - Columns: ['first_name', 'last_name', 'cc_n'] removed from DataFrame
+2022-06-05 19:48:32,612 - Rotating Log - INFO - Column renaming from 'id' to 'client_identifier'
+2022-06-05 19:48:32,620 - Rotating Log - INFO - Column renaming from 'btc_a' to 'bitcoin_address'
+2022-06-05 19:48:32,629 - Rotating Log - INFO - Column renaming from 'cc_t' to 'credit_card_type'
+2022-06-05 19:48:45,882 - Rotating Log - INFO - Starting app
+2022-06-05 19:48:57,949 - Rotating Log - INFO - Reading csv file from ./input_datasets/dataset_one.csv
+2022-06-05 19:48:58,235 - Rotating Log - INFO - Reading csv file from ./input_datasets/dataset_two.csv
+2022-06-05 19:48:58,363 - Rotating Log - INFO - Joined two DataFrames on: id
+2022-06-05 19:48:58,377 - Rotating Log - INFO - Columns: ['first_name', 'last_name', 'cc_n'] removed from DataFrame
+2022-06-05 19:48:58,378 - Rotating Log - INFO - Column renaming from 'id' to 'client_identifier'
+2022-06-05 19:48:58,387 - Rotating Log - INFO - Column renaming from 'btc_a' to 'bitcoin_address'
+2022-06-05 19:48:58,396 - Rotating Log - INFO - Column renaming from 'cc_t' to 'credit_card_type'
+2022-06-05 19:48:58,450 - Rotating Log - INFO - Filtered with ['United Kingdom', 'Netherlands'] values in 'country' column
+2022-06-05 19:49:01,113 - Rotating Log - INFO - Saved DataFrame file as output.csv to ./client_data/output.csv

@@ -13,4 +13,6 @@ my_env/*
 .pytest_cache
 .pytest_cache/*
 
+dist
+KaommatiPara_package_Rafal_Osowski.egg-info
 
